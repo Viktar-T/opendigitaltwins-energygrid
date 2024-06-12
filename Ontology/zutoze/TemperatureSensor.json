@@ -1,0 +1,13 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:zut:oze:TemperatureSensor;1",
+  "@type": "Interface",
+  "displayName": "Temperature Sensor",
+  "contents": [
+    {
+      "@type": "Telemetry",
+      "name": "temperature",
+      "schema": "double"
+    }
+  ]
+}

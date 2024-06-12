@@ -1,0 +1,23 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:zut:oze:Laboratory;1",
+  "@type": "Interface",
+  "displayName": "Laboratory",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "hasBiogasProducer",
+      "target": "dtmi:zut:oze:BiogasProducer;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "hasWindTurbine",
+      "target": "dtmi:zut:oze:WindTurbine;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "hasSolarPanel",
+      "target": "dtmi:zut:oze:SolarPanel;1"
+    }
+  ]
+}

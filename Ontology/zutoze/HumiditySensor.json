@@ -1,0 +1,13 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:zut:oze:HumiditySensor;1",
+  "@type": "Interface",
+  "displayName": "Humidity Sensor",
+  "contents": [
+    {
+      "@type": "Telemetry",
+      "name": "humidity",
+      "schema": "double"
+    }
+  ]
+}

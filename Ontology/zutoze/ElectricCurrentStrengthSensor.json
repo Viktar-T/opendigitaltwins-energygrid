@@ -1,0 +1,13 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:zut:oze:CurrentSensor;1",
+  "@type": "Interface",
+  "displayName": "Current Sensor",
+  "contents": [
+    {
+      "@type": "Telemetry",
+      "name": "current",
+      "schema": "double"
+    }
+  ]
+}

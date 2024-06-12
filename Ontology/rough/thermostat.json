@@ -1,0 +1,24 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:com:example:Thermostat;1",
+    "@type": "Interface",
+    "displayName": "Thermostat",
+    "contents": [
+      {
+        "@type": "Telemetry",
+        "name": "temp1",
+        "schema": "double"
+      },
+      {
+        "@type": "Telemetry",
+        "name": "temp2",
+        "schema": "double"
+      },
+      {
+        "@type": "Property",
+        "name": "setPointTemp",
+        "writable": true,
+        "schema": "double"
+      }
+    ]
+  }

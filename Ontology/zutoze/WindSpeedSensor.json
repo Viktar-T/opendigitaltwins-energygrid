@@ -1,0 +1,13 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:zut:oze:WindSpeedSensor;1",
+  "@type": "Interface",
+  "displayName": "Wind Speed Sensor",
+  "contents": [
+    {
+      "@type": "Telemetry",
+      "name": "windSpeed",
+      "schema": "double"
+    }
+  ]
+}

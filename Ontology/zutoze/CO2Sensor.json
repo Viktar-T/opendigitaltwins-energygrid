@@ -1,0 +1,13 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:zut:oze:CO2Sensor;1",
+  "@type": "Interface",
+  "displayName": "CO2 Sensor",
+  "contents": [
+    {
+      "@type": "Telemetry",
+      "name": "co2",
+      "schema": "double"
+    }
+  ]
+}

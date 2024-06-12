@@ -1,0 +1,13 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:zut:oze:VoltageSensor;1",
+  "@type": "Interface",
+  "displayName": "Voltage Sensor",
+  "contents": [
+    {
+      "@type": "Telemetry",
+      "name": "voltage",
+      "schema": "double"
+    }
+  ]
+}

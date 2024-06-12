@@ -1,0 +1,23 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:zut:oze:WindTurbine;1",
+  "@type": "Interface",
+  "displayName": "Wind Turbine",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "hasVoltageSensor",
+      "target": "dtmi:zut:oze:VoltageSensor;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "hasCurrentSensor",
+      "target": "dtmi:zut:oze:CurrentSensor;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "hasWindSpeedSensor",
+      "target": "dtmi:zut:oze:WindSpeedSensor;1"
+    }
+  ]
+}

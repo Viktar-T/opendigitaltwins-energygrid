@@ -1,0 +1,23 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:zut:oze:BiogasProducer;1",
+  "@type": "Interface",
+  "displayName": "Biogas Producer",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "hasTemperatureSensor",
+      "target": "dtmi:zut:oze:TemperatureSensor;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "hasHumiditySensor",
+      "target": "dtmi:zut:oze:HumiditySensor;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "hasCO2Sensor",
+      "target": "dtmi:zut:oze:CO2Sensor;1"
+    }
+  ]
+}
