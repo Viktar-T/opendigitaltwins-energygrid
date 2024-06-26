@@ -1,0 +1,35 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:zut:oze:WindTurbine;1",
+    "@type": "Interface",
+    "displayName": "Wind Turbine",
+    "contents": [
+      {
+        "@type": "Telemetry",
+        "name": "windSpeed",
+        "schema": "double",
+        "displayName": "Wind Speed"
+      },
+      {
+        "@type": "Telemetry",
+        "name": "powerOutput",
+        "schema": "double",
+        "displayName": "Power Output"
+      },
+      {
+        "@type": "Property",
+        "name": "bladeAngle",
+        "schema": "double",
+        "writable": true,
+        "displayName": "Blade Angle"
+      },
+      {
+        "@type": "Property",
+        "name": "operationalStatus",
+        "schema": "string",
+        "writable": true,
+        "displayName": "Operational Status"
+      }
+    ]
+  }
+  

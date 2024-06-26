@@ -1,0 +1,41 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:zut:oze:EngineTestBench;1",
+    "@type": "Interface",
+    "displayName": "Engine Test Bench",
+    "contents": [
+      {
+        "@type": "Telemetry",
+        "name": "rpm",
+        "schema": "double",
+        "displayName": "RPM"
+      },
+      {
+        "@type": "Telemetry",
+        "name": "torque",
+        "schema": "double",
+        "displayName": "Torque"
+      },
+      {
+        "@type": "Telemetry",
+        "name": "powerOutput",
+        "schema": "double",
+        "displayName": "Power Output"
+      },
+      {
+        "@type": "Property",
+        "name": "load",
+        "schema": "double",
+        "writable": true,
+        "displayName": "Load"
+      },
+      {
+        "@type": "Property",
+        "name": "operationalStatus",
+        "schema": "string",
+        "writable": true,
+        "displayName": "Operational Status"
+      }
+    ]
+  }
+  

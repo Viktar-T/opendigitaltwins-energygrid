@@ -1,0 +1,41 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:zut:oze:BiogasStation;1",
+    "@type": "Interface",
+    "displayName": "Biogas Station",
+    "contents": [
+      {
+        "@type": "Telemetry",
+        "name": "methaneConcentration",
+        "schema": "double",
+        "displayName": "Methane Concentration"
+      },
+      {
+        "@type": "Telemetry",
+        "name": "temperature",
+        "schema": "double",
+        "displayName": "Temperature"
+      },
+      {
+        "@type": "Telemetry",
+        "name": "pressure",
+        "schema": "double",
+        "displayName": "Pressure"
+      },
+      {
+        "@type": "Property",
+        "name": "feedRate",
+        "schema": "double",
+        "writable": true,
+        "displayName": "Feed Rate"
+      },
+      {
+        "@type": "Property",
+        "name": "operationalStatus",
+        "schema": "string",
+        "writable": true,
+        "displayName": "Operational Status"
+      }
+    ]
+  }
+  

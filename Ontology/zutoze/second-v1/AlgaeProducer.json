@@ -1,0 +1,48 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:zut:oze:AlgaeProducer;1",
+    "@type": "Interface",
+    "displayName": "Algae Producer",
+    "contents": [
+      {
+        "@type": "Telemetry",
+        "name": "temperature",
+        "schema": "double",
+        "displayName": "Temperature"
+      },
+      {
+        "@type": "Telemetry",
+        "name": "phLevel",
+        "schema": "double",
+        "displayName": "pH Level"
+      },
+      {
+        "@type": "Telemetry",
+        "name": "growthRate",
+        "schema": "double",
+        "displayName": "Growth Rate"
+      },
+      {
+        "@type": "Property",
+        "name": "nutrientSupply",
+        "schema": "double",
+        "writable": true,
+        "displayName": "Nutrient Supply"
+      },
+      {
+        "@type": "Property",
+        "name": "lightIntensity",
+        "schema": "double",
+        "writable": true,
+        "displayName": "Light Intensity"
+      },
+      {
+        "@type": "Property",
+        "name": "operationalStatus",
+        "schema": "string",
+        "writable": true,
+        "displayName": "Operational Status"
+      }
+    ]
+  }
+  

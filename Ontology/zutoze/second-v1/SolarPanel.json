@@ -1,0 +1,35 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:zut:oze:SolarPanel;1",
+    "@type": "Interface",
+    "displayName": "Solar Panel",
+    "contents": [
+      {
+        "@type": "Telemetry",
+        "name": "solarIrradiance",
+        "schema": "double",
+        "displayName": "Solar Irradiance"
+      },
+      {
+        "@type": "Telemetry",
+        "name": "powerOutput",
+        "schema": "double",
+        "displayName": "Power Output"
+      },
+      {
+        "@type": "Property",
+        "name": "panelAngle",
+        "schema": "double",
+        "writable": true,
+        "displayName": "Panel Angle"
+      },
+      {
+        "@type": "Property",
+        "name": "operationalStatus",
+        "schema": "string",
+        "writable": true,
+        "displayName": "Operational Status"
+      }
+    ]
+  }
+  
